@@ -14,6 +14,7 @@ public class Ferrari {
     driver.manage().window().maximize();
     driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
     driver.get("https://www.ferrari.com/en-IN");
-    Reporter.log("Ferrari launch successfull",true);
+    Reporter.log("Ferrari launch successfull");
+	 
 	}
 }
